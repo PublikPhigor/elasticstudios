@@ -566,6 +566,11 @@ footer {
             max-width: 50%;
             text-align: center;
         }
+
+            .connect-box i {
+                font-size: 20px;
+                color: #000;
+            }
     .section-two {
         width: 50%;
         max-width: 50%;
@@ -621,6 +626,11 @@ footer {
 
             .contact-us p {
                 margin-bottom: 8px;
+            }
+
+            .contact-us i {
+                margin-left: 3px;
+                color: #FFF;
             }
 
 /* about page */
