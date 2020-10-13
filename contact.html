@@ -8,20 +8,60 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <header>
-            <div id="logo">
-                <img src="img/logo.png" width="130px" height="25px">
-                <h1>Studios</h1>
+    <div class="container contact-about-page">
+        <div class="container">
+            <header>
+                <div id="logo">
+                    <img src="img/logo.png" width="130px" height="25px">
+                    <h1>Studios</h1>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="book.html">Book</a></li>
+                        <li><a href="contact.html" class="current">Contact</a></li>
+                        <li><a href="about.html">About</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+            <!-- logo -->
+            <div class="logo-and-body">
+                <div class="section-one">
+                    <div id="elastic-logo">
+                        <img src="img/elastic.png" alt="logo" class="big-logo">
+                        <img src="img/studios.png" alt="" class="small-logo">
+                    </div>
+                    <div class="new-connect">
+                        <div class="connect-box"><i class="fa fa-behance" aria-hidden="true"></i></div>
+                        <div class="connect-box"><i class="fa fa-facebook" aria-hidden="true"></i></div>
+                        <div class="connect-box"><i class="fa fa-instagram" aria-hidden="true"></i></div>
+                    </div>
+                </div>
+                <div class="section-two">
+                    <div class="contact-form">
+                        <h1>Contact Us</h1>
+                        <form action="POST" class="my-form">
+                            <label for="">Name</label>
+                            <input type="name" placeholder="Enter your name">
+                            <label for="">Email Address</label>
+                            <input type="email" placeholder="Enter your email address">
+                            <label for="">Message</label>
+                            <textarea name="" id="" cols="30" rows="15" placeholder="Enter your message here"></textarea>        
+                        </form>
+                        <div class="submit-box">
+                            <p>We would get back to you within 1 business day.</p>
+                            <a href="#" class="select-btn form-btn">Submit</a>
+                        </div>
+                        <div class="contact-us">
+                            <p>(234) 810-155-5748</p>
+                            <p>No. 555, Eleyele Str., Gbogumi, Lagos.</p>
+                            <p>info@elasticstudios</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="book.html">Book</a></li>
-                    <li><a href="contact.html" class="current">Contact</a></li>
-                    <li><a href="about.html">About</a></li>
-                </ul>
-            </nav>
-        </header>
+        </div> <!--container-->
+    </div> <!--container-->
 </body>
 </html>

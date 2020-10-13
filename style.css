@@ -526,3 +526,114 @@ footer {
             color: #FFF;
             background: #CCAF40;
         }
+
+
+
+/* contact page */
+.contact-about-page {
+    background: #000;
+}
+
+.logo-and-body {
+    margin: 200px auto;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+    .section-one {
+        width: 30%;
+        max-width: 30%;
+    }
+        .elastic-logo {
+            display: flex;
+        }
+            .elastic-logo img {
+                
+            }
+            .big-logo {
+                height: 700px;
+                max-width: 150px;
+                vertical-align: middle;
+                margin-right: 20px;
+            }
+            .small-logo {
+                max-height: 400px;
+                max-width: 30px;
+                vertical-align: middle;
+            }
+        .new-connect {
+            margin-top: 50px;
+            max-width: 50%;
+            text-align: center;
+        }
+    .section-two {
+        width: 50%;
+        max-width: 50%;
+    }
+        .contact-form {
+            margin-left: 30%;
+        }
+        .my-form {
+            color: #FFF;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .my-form label {
+            margin-top: 30px;
+            margin-bottom: 5px;
+        }
+            .my-form label:first-child{
+                margin-top: 20px;
+            }
+        .my-form input, textarea {
+            padding: 10px;
+            border: 2px solid #FFF;
+            background: #000;
+            max-width: 85%;
+            color: #FFF;
+        }
+
+        .submit-box {
+            margin-top: 20px;
+            max-width: 97%;
+            display: flex;
+        }
+
+            .submit-box p {
+                max-width: 65%;
+            }
+
+            .submit-box a {
+                max-width: 40%;
+            }
+
+            .form-btn {
+                padding: 10px 20px;
+            }
+        
+        .contact-us {
+            max-width: 85%;
+            margin: auto;
+            margin-top: 130px;
+            text-align: right;
+        }
+
+            .contact-us p {
+                margin-bottom: 8px;
+            }
+
+/* about page */
+.about {
+    margin: 20px auto;
+    line-height: 25px;
+    text-align: justify;
+}
+
+    .about a {
+        color: #CCAF40;
+    }
+
+        .about a:hover {
+            font-weight: bold;
+        }
